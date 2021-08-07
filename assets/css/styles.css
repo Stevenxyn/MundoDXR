@@ -1,0 +1,127 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f3f3;
+  font-family: "Roboto", sans-serif;
+}
+
+/*========MENU==========*/
+
+header{
+  background-color: #C172B3;
+  width: 100%;
+  display: table;
+  position: fixed;
+  z-index: 1;
+}
+
+.menu {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.logo-nav h1 {
+  width: 100px;
+  height: 70px;
+  float: left;
+  padding: 15px;
+  font-family: 'Roboto', sans-serif;
+  color: #7610C9;
+ 
+}
+
+.logo-nav h1:hover{
+  color: #8f2fdf;
+}
+
+nav{
+  float: right;
+}
+
+nav ul li{
+  list-style: none;
+  margin-left: 75px;
+  padding: 25px 0;
+  float: left;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #f3f3f3;
+  font-weight: bold;
+  font-family: 'Acme', sans-serif;
+  font-size: medium;
+}
+
+nav ul li a:hover{
+  text-decoration: none;
+  color:#c5c5c5;
+}
+/*=======Secciones======*/
+section{
+  padding: 35px 0;
+}
+
+/* hr{
+  background: #7610c962;
+} */
+
+/*========Titles==========*/
+.section-title h2{
+  font-size: 14px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  color: #aaaaaa;
+  padding: 20px 0;
+}
+
+.section-title h2::after{
+  content: " ";
+  background-color: #7610C9;
+  margin: 4px 10px;
+  display: inline-block;
+  height: 1px;
+  width: 120px;
+}
+
+.section-title h3{
+  font-size: 35px;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  color: #7610C9;
+  padding-bottom: 15px;
+}
+
+.section-title small{
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.productos ul a li{
+  text-decoration: none;
+  padding-left: 60px;
+  color: black;
+  list-style: none;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
