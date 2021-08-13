@@ -9,66 +9,27 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+a:hover{
+  text-decoration: none;
+}
+
 /*========MENU==========*/
 
-header{
-  background-color: #C172B3;
+.navbar{
+  background-color: #ffffff;
   width: 100%;
   display: table;
   position: fixed;
-  z-index: 1;
+  z-index: 9001;
 }
 
-.menu {
-  width: 900px;
-  margin: 0 auto;
+/*========MEDIA CARROUSEL=======*/
+@media (min-width: 450px)  {
+  .d-md-block{
+    display: block!important;
+    
+    }
 }
-
-.logo-nav h1 {
-  width: 100px;
-  height: 70px;
-  float: left;
-  padding: 15px;
-  font-family: 'Roboto', sans-serif;
-  color: #7610C9;
- 
-}
-
-.logo-nav h1:hover{
-  color: #8f2fdf;
-}
-
-nav{
-  float: right;
-}
-
-nav ul li{
-  list-style: none;
-  margin-left: 75px;
-  padding: 25px 0;
-  float: left;
-}
-
-nav ul li a{
-  text-decoration: none;
-  color: #f3f3f3;
-  font-weight: bold;
-  font-family: 'Acme', sans-serif;
-  font-size: medium;
-}
-
-nav ul li a:hover{
-  text-decoration: none;
-  color:#c5c5c5;
-}
-/*=======Secciones======*/
-section{
-  padding: 35px 0;
-}
-
-/* hr{
-  background: #7610c962;
-} */
 
 /*========Titles==========*/
 .section-title h2{
@@ -110,8 +71,47 @@ section{
  
 }
 
+section{
+  padding: 20px 0;
+}
 
 
+/*========Portafolio==========*/
+
+.portafolio-contenedor{
+  position: relative;
+  overflow: hidden;
+  margin: 10px 0;
+  border-radius: 5px;
+
+}
+
+.portafolio-contenedor img{
+  -moz-transition: all 1s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.portafolio-contenedor:hover img{
+  -moz-transition: scale(1.2);
+  -webkit-transform: scale(1.2) ;
+  transform: scale(1.2);
+}
+
+.portafolio-detalles{
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  z-index: 9000;
+}
+
+.portafolio-detalles h2{
+  margin-bottom: 0px;
+}
+
+.portafolio-detalles a h2, .portafolio-detalles p{
+  color: #f3f3f3;
+}
 
 
 

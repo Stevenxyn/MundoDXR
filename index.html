@@ -14,8 +14,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
-      crossorigin="anonymous"
-    />
+      crossorigin="anonymous"/>
+
+    <!--BOOTSTRAP ICONS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     
 
     <!--FOTNS-->
@@ -33,22 +35,54 @@
   </head>
 
   <body>
-    <header>
-      <div class="menu col-12 col-md-12">
-        <a href="index.html" class="logo-nav"><h1>MundoDXR</h1> </a>
-        <nav>
-          <ul>
-            <li><a href="#home">Inicio</a></li>
-            <li><a href="#acerca-de-mi">Sobre mi</a></li>
-            <li><a href="#portafolio">Portafolio</a></li>
-            <li><a href="#contactame">Contactame</a></li>
+
+    <!--============
+    == Seccion Carrusel== 
+    ===============-->
+    
+    
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+        <a class="navbar-brand" href="index.html">Mundo DXR</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="bi bi-list"></i></button>
+      
+        <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto  ">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#acerca-de-mi">Conoceme</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Ofrecemos
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Tentidos De Cama</a>
+                <a class="dropdown-item" href="#">Sabanas</a>
+                <a class="dropdown-item" href="#">Juegos De Baño</a>
+                <a class="dropdown-item" href="#">Lenceria Mujer</a>
+                <a class="dropdown-item" href="#">Zapatos</a>
+                <a class="dropdown-item" href="#">Ver Más</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portafolio">Portafolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Proximamente</a>
+            </li>
           </ul>
-        </nav>
-      </div>
-    </header>
+        </div>
+      </nav>
+    </div>
+  
+
    <main>
     <section id="home">
-      <div id="carouselExampleCaptions" class="carousel slide" data-ride="false">
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="false" style="z-index: 0;">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleCaptions" data-slide-to="0" ></li>
           <li data-target="#carouselExampleCaptions" data-slide-to="1"class="active"></li>
@@ -87,6 +121,10 @@
         </a>
       </div>
     </section>
+    
+  <!--================
+    == Seccion Acerca de mi == 
+    =================-->
 
     <section id="acerca-de-mi">
       <div class="container">
@@ -101,6 +139,9 @@
               <p>
                 <strong>NUEVOS CATÁLOGOS ZAPATOS PARA TODA LA FAMILIA! &#129321 &#129321</strong> TENDIDOS DE CAMA SÁBANAS! JUEGOS DE BAÑO Y NUESTRA LENCERÍA!Zapatos a Contado y crédito en línea!.Sábanas, Cubrelechos y juegos de baño crédito personal!. Escríbeme y te envío catálogo 
               </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo architecto nihil dolores tempore debitis quasi, delectus velit distinctio dicta ex nesciunt, consequatur est in sed magni! Officiis quasi, temporibus praesentium perferendis impedit nisi adipisci deserunt ut veniam earum ad accusantium doloribus beatae nam, placeat cum.
+              </p>
             </div>
 
           
@@ -108,8 +149,8 @@
               <h2>Ofrecemos</h2>        
             </div>
             
-              <div class="row d-flex"> 
-                <div class="productos col-md-6 col-lg-4  col-xl-4">
+              <div class="row d-flex" style="text-align: center;"> 
+                <div class="productos col-md-6 col-lg-6 col-xl-6">
                     <ul >
                       <a href="#"><li>Tentidos de cama &#128539</li></a> 
                       <a href="#"><li>Sabanas &#128153</li></a> 
@@ -120,23 +161,15 @@
                     </ul>
                   </div>
            
-                  <div class="productos col-md-6 col-lg-4  col-xl-4">
+                  <div class="productos col-md-6 col-lg-6  col-xl-6">
                     <ul >
-                      <a href="#"><li>Tentidos de cama &#128539</li></a> 
-                      <a href="#"><li>Sabanas &#128153</li></a> 
-                      <a href="#"><li>Juegos de baño &#128154</li></a>  
-                      <a href="#"><li>Lenceria Mujer &#128155</li></a>
-                      <a href="#"><li>Zapatos &#128156</li></a>
-                      <a href="#"><li>Mucho más &#128079</li></a>
-                    </ul>
-                  </div>
-                  <div class="productos  col-md-12 col-lg-4 col-xl-4">
-                    <ul >
-                      <a href="#"><li>Tentidos de cama &#128539</li></a> 
-                      <a href="#"><li>Sabanas &#128153</li></a> 
-                      <a href="#"><li>Juegos de baño &#128154</li></a>  
-                      <a href="#"><li>Lenceria Mujer &#128155</li></a>
-                      <a href="#"><li>Zapatos &#128156</li></a>
+                      <a href="#"><li>Cosméticos&#128539</li></a> 
+                      <a href="#"><li>Tennis unisex &#128153</li></a> 
+                      <a href="#"><li>Botas de trabajo &#128154</li></a>  
+                      <a href="#"><li>Tenis de hombre &#128155</li></a>
+                      <a href="#"><li>Zapato casual de dama&#128156</li></a>
+                      <a href="#"><li>Combos de caballero&#128156</li></a>
+                      <a href="#"><li>Botines y tacones&#128156</li></a>
                       <a href="#"><li>Mucho más &#128079</li></a>
                     </ul>
                   </div>
@@ -144,12 +177,51 @@
       </div>
     </section>
 
+    <!--================
+    == Seccion de Portafolio == 
+    =================-->
+    
     <section id="portafolio">
       <div class="container">
         <div class="row">
-          <div class="section-title">
-            <h2>Conoce más acá</h2>
-            <h3>Portafolio</h3>
+          <div class="col-md-6">
+            <div class="portafolio-contenedor">
+              <div class="portafolio-detalles">
+                <a href="#"><h2>Conoce más</h2></a>
+                <a href="#"><p>Lenceria</p></a>
+              </div>
+              <img src="assets/img/zakynthos-6514351_1920.jpg" class="img-fluid" alt="Portafolio 1">
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="portafolio-contenedor">
+              <div class="portafolio-detalles">
+                <a href="#"><h2>Conoce más</h2></a>
+                <p>Lenceria</p>
+              </div>
+              <img src="assets/img/zakynthos-6514351_1920.jpg" class="img-fluid" alt="Portafolio 1">
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="portafolio-contenedor">
+              <div class="portafolio-detalles">
+                <a href="#"><h2>Conoce más</h2></a>
+                <p>Lenceria</p>
+              </div>
+              <img src="assets/img/zakynthos-6514351_1920.jpg" class="img-fluid" alt="Portafolio 1">
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="portafolio-contenedor">
+              <div class="portafolio-detalles">
+                <a href="#"><h2>Conoce más</h2></a>
+                <p>Lenceria</p>
+              </div>
+              <img src="assets/img/zakynthos-6514351_1920.jpg" class="img-fluid" alt="Portafolio 1">
+            </div>
           </div>
         </div>
       </div>
